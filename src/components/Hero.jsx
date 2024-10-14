@@ -47,7 +47,7 @@ const imageVarients = {
 
 function Hero() {
   return (
-    <section className="overflow-hidden">
+    <section className="overflow-hidden" id="hero">
         <div className="relative z-10 min-h-screen flex flex-wrap flex-col md:flex-row items-center justify-center text-white">
             <motion.div 
                 className="w-full md:w-1/2 p-8"
